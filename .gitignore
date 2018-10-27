@@ -17,7 +17,6 @@ dependency-reduced-pom.xml
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.ear
 *.zip
@@ -29,4 +28,3 @@ hs_err_pid*
 /.gradle/
 /build/
 /out/
-
