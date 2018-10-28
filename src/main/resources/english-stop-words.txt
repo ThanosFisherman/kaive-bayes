@@ -248,6 +248,7 @@ know
 knows
 known
 l
+ll
 last
 lately
 later
@@ -276,6 +277,7 @@ mean
 meanwhile
 merely
 might
+mon
 more
 moreover
 most
