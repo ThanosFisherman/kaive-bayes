@@ -3,6 +3,17 @@ Kaive Bayes
 
 Sorry about the ridiculous name, this is a very simple Naive Bayes classifier written in Kotlin.
 
+### Techniques used
+
+In order to be competitive, Kaive Bayes leverages the following techniques:
+
+- Laplace Smoothing for eliminating zero probabilities
+- log-sum trick to prevent number underflows
+- Normalization
+- Stopword purging
+
+Serialization is to be added soon along with various optimization enhancements.
+
 ### Example
 
 ```kotlin
