@@ -14,7 +14,7 @@ In order to be competitive, Kaive Bayes leverages the following techniques:
 
 Serialization is to be added soon along with various optimization enhancements.
 
-### Example
+### Usage
 
 ```kotlin
  var bae = BayesClassifier<String>()
