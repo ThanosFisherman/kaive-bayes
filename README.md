@@ -36,3 +36,25 @@ Serialization is to be added soon along with various optimization enhancements.
 ``` 
 
 For more examples see the [Main](/src/main/kotlin/io/github/thanosfisherman/bayes/Main.kt) function
+
+### Add it to your project 
+
+You may find kaive-bayes under jcenter. [ ![Download](https://api.bintray.com/packages/thanosfisherman/maven/kaive-bayes/images/download.svg?version=kaive-bayes1.0.0) ](https://bintray.com/thanosfisherman/maven/kaive-bayes/kaive-bayes1.0.0/link)
+
+
+**Gradle dependency
+
+```groovy
+compile 'io.github.thanosfisherman:kaive-bayes:<latest_version_here>'
+```
+
+**Maven dependency
+
+```xml
+<dependency>
+  <groupId>io.github.thanosfisherman</groupId>
+  <artifactId>kaive-bayes</artifactId>
+  <version>latest_version_here</version>
+  <type>pom</type>
+</dependency>
+```
