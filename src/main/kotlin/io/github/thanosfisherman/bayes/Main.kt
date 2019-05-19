@@ -1,6 +1,6 @@
 package io.github.thanosfisherman.bayes
 
-fun main(args: Array<String>) {
+fun main() {
 
     //EXAMPLE 1: FILTERING SPORTS-RELATED TEXT
 

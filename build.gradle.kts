@@ -4,8 +4,8 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 plugins {
     `maven-publish`
     java
-    kotlin("jvm") version "1.3.0"
-    id("org.jetbrains.dokka") version "0.9.17"
+    kotlin("jvm") version "1.3.31"
+    id("org.jetbrains.dokka") version "0.9.18"
 }
 
 group = "io.github.thanosfisherman"
