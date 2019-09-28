@@ -91,8 +91,9 @@ data class Input<C>(val text: String, val category: C) {
 }
 
 fun String.splitWords(): Sequence<String> {
-    val stopWords = this::class.java.getResource("/english-stop-words.txt")
-            .readText().split("\n").toSet()
+    val stopWords = javaClass.getResource("/english-stop-words.txt")
+            ?.readText()?.split("\n")?.toSet() ?: setOf()
+
 
     return split(Regex("\\s")).asSequence()
             .map { it.replace(Regex("[^A-Za-z]"), "").toLowerCase() }
